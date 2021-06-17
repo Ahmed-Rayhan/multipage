@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+	background-color:  #303841;
+}
+.container{
+	max-width: 1000px;
+	margin: auto;
+}
+.logo{
+	color: #fff;
+	flex-basis: 20%;
+}
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.align-center{
+	align-items: center;
+}
+.logo{
+	color: #fff;
+}
+.logo a{
+	font-size: 30px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+}
+nav{
+	flex-basis: 50%;
+	justify-content: flex-end;
+	padding: 0px 15px;
+
+}
+nav ul{
+	
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 28px 15px;
+}
+nav ul li a:hover{
+	background-color: #fff;
+	color: black;
+}
+.banner-section h1{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	color: #303841 ;
+	padding: 30px 0 0px 0;
+}
+
+img{
+	max-width: 100%;
+	align-items: center;
+}
+.container img{
+
+}
+.container{
+
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 60px 0 20px;
+    margin: 20px 10px 10px;
+}
+.container p{
+	padding: 20px 5px;
+    margin: 5px 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #303841;
+}
+footer{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 20px;
+	background-color: #303841;
+}
+
+/* blog */
+.blog-section{
+	padding: 50px 0 ;
+}
+.col-1-4{
+	flex-basis: 25%;
+}
+.card{
+	padding: 10px;
+    box-shadow: -12px -6px 16px 0px #33313178;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.card h4{
+	font-weight: 500;
+	padding: 5px 10px 5px 14px;
+}
+.card img{
+ 	height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+.card p{
+	padding: 5px 0px;
+    margin: 5px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #303841;
+}
+.card ul li{
+	list-style: none;
+}
+.card-body p{
+   
+}
+.card:hover{
+	animation: 0.3s ease-out all;
+	transform: scale(1.1);
+}
+
+/*blog end*/
+
+
+/*contact us start*/
+.contanct{
+
+}
+.contanct img{
+	height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.contact p{
+	padding: 50px 0 50px 0px;
+	font-size: 25px;
+}
+/*service start*/
+.service img{
+	
+}
+
